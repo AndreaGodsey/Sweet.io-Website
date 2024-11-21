@@ -1,0 +1,406 @@
+@font-face {
+    font-family: Montserrat-VariableFont;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    
+}
+@font-face {
+    font-family:Montserrat-Medium;
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family:Montserrat-Regular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Montserrat/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: PTSerif-Italic;
+    src: url(../fonts/Montserrat/PT_Serif/PTSerif-Italic.ttf);
+}
+nav{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .links a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #C38D94;
+    text-transform: lowercase;
+    font-family: Montserrat-VariableFont;
+    margin-right: 19px;
+
+}
+nav .logo span{
+    color: #C38D94;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Montserrat-Regular;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.chocolateheart{
+    width: 100%;
+    height: 700px;
+    margin-top: 25px;
+    background-image:linear-gradient(to right, rgba(86, 86, 118,.75),rgba(86, 86, 118,.75)), url(../images/hero-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chocolateheart .callout{
+    color:#C38D94;
+    font-size: 60px;
+    width: 496px;
+    text-align: right;
+    margin-right: 75px;
+    font-family:Montserrat-Light;
+}
+
+.chocolateheart .callout span{
+    font-family:Montserrat-Bold;
+    text-transform: bold;
+}
+
+section{
+    margin: 0 auto;
+    width: 1280px;
+    min-height: 100%;
+}
+.about{
+padding:50px;
+
+
+}
+.aboutcontent{
+    height: 600px;
+    background-color: #C38D94;
+
+}
+
+.products{
+    padding:0px 0px 50px;
+   
+}
+
+.subcontent{
+    height: 250px;
+    background-color: #CC9EA4;
+}
+.subcontent2{
+    height: 250px;
+    background-color: #CC9EA4;
+}
+.productscontent{
+    height: 700px;
+    background-color: #A76571;
+ 
+}
+.abouthp{
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.paraabout{
+    margin-top: 52px;
+}
+.aboutabovep{
+    width:606px ;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Montserrat-Medium;
+    color: white;
+}
+.abouthp-center{
+    width: 606px;
+    min-height: 209px;
+    font-size: 16px;
+    font-family: Roboto-Regular;
+    color: white;
+}
+.contact{
+    background-color: #565676;
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+}
+.contactabovef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Montserrat-Light;
+    font-size: 30px;
+    margin-bottom: 61px;
+    margin-top: 0px;
+
+
+}
+.Contactinfo{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.textInputs label, input{
+display: block;
+border: solid 3px: #565676
+}
+.textInputs label, input{
+    margin-bottom: 16px;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: white;
+     }
+
+
+.textInputs input{
+    width: 567px;
+    height: 53px;
+    border: solid 3px;
+    color: #FFFFFF;
+    background-color: #565676;
+    }
+
+
+.subBtn{
+    padding: 10px 3px;
+    background-color: #565676;
+    border-style: solid;
+    border-color: white;
+    border-radius: 27px;
+    text-transform: lowercase;
+    font-family: Roboto-Regular;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    margin-top: 45px;
+    margin-left: 188px;
+}
+
+.leftandright{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.leftandright .left1{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.leftandright .left1 .left2ChefMans{
+    display: flex;
+    align-items: center;
+    margin-top: 67px;
+    margin-left: 144px;
+}
+
+.ChefMansImage{
+    width: 114px;
+    height: 114px;
+    border-radius: 88px;
+    overflow:hidden;
+    background-image: url(../images/ChefMans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.ThinChef{
+    color: #FFFFFF;
+    font-family: Montserrat-Light;
+    font-size: 25px;
+    
+    
+}
+.right2h{
+color: #FFFFFF;
+font-family: Montserrat-Regular;
+font-size: 22px;
+margin-left: 32px;
+margin-top: 86px;
+
+}
+
+.right2h .right2p{
+    color: #FFFFFF;
+    font-family: Montserrat-VariableFont;
+    font-size: 16px;
+    width: 350px;
+    margin-top: 15px;
+   
+  
+}
+.leftandright .right1{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.leftandright .right1 .left3ChefWomans{
+    display: flex;
+    align-items: center;
+    margin-top: 67px;
+    margin-left: 99px;
+}
+
+.ChefWomansImage{
+    width: 114px;
+    height: 114px;
+    border-radius: 88px;
+    overflow:hidden;
+    background-image: url(../images/ChefWomans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.ThinChef{
+    color: #FFFFFF;
+    font-family: Montserrat-Light;
+    font-size: 25px;
+    
+    
+}
+.right3h{
+color: #FFFFFF;
+font-family: Montserrat-Regular;
+font-size: 22px;
+margin-left: 32px;
+margin-top: 86px;
+
+}
+
+.right3h .right4p{
+    color: #FFFFFF;
+    font-family: Montserrat-VariableFont;
+    font-size: 16px;
+    width: 350px;
+    margin-top: 15px;
+   
+  
+}
+.producttitleimage{
+display: flex;
+justify-content: center;
+height: 37px;
+
+}
+.producttitle{
+    width:138px ;
+    height: 37px;
+    font-size: 30px;
+    font-family: Montserrat-Medium;
+    color: white;
+    margin-top: 91px;
+
+    
+}
+
+.Chococookies{
+    width: 204px;
+    height: 204px;
+    border-radius: 102px;
+    overflow:hidden;
+    background-image: url(../images/Chococookies.jpg);
+    background-image:linear-gradient(to right, rgba(167, 101, 113,.60),rgba(167, 101, 113,.60)), url(../images/Chococookies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Brownies{
+    width: 204px;
+    height: 204px;
+    border-radius: 102px;
+    overflow:hidden;
+    background-image: url(../images/Brownies.jpg);
+    background-image:linear-gradient(to right, rgba(167, 101, 113,.60),rgba(167, 101, 113,.60)), url(../images/Brownies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Macaroons{
+    width: 204px;
+    height: 204px;
+    border-radius: 102px;
+    overflow:hidden;
+    background-image: url(../images/Macaroons.jpg);
+    background-image:linear-gradient(to right, rgba(167, 101, 113,.60),rgba(167, 101, 113,.60)), url(../images/Macaroons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexcontainer{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 54px;
+}
+
+.flexbox{
+  width: 204px;  
+  height: 204px; 
+  margin: 60px;
+}
+
+.flexbox1{
+    width: 204px;  
+    height: 204px; 
+   margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+.flexcontainer2{
+height: auto;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+
+.flexbox3{
+width: 222px;
+height: 139px;
+text-align: center;
+font-size: 20px;
+font-family: PTSerif-Italic;
+color: #FFFFFF;
+margin-top: 25px;
+}
+
+@media screen {
+    
+}
